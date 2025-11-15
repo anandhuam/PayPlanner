@@ -1,0 +1,61 @@
+body {
+  background: linear-gradient(135deg, #1e3c72, #2a5298);
+  font-family: 'Poppins', sans-serif;
+  min-height: 100vh;
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.12);
+  border-radius: 20px;
+  backdrop-filter: blur(15px);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+  animation: fadeInUp 0.8s ease;
+}
+
+@keyframes fadeInUp {
+  from { transform: translateY(30px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+.form-control {
+  background: rgba(255, 255, 255, 0.9);
+  border: none;
+  border-radius: 12px;
+  height: 45px;
+}
+
+.list-group-item {
+  background: rgba(255, 255, 255, 0.85);
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 7px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.summary-box {
+  background: rgba(255, 255, 255, 0.18);
+  padding: 15px;
+  border-radius: 12px;
+  color: #fff;
+}
+
+.neon-btn {
+  background: linear-gradient(135deg, #ffdf6b, #ffc107);
+  border: none;
+  color: #333;
+  border-radius: 12px;
+  padding: 10px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.neon-btn:hover {
+  transform: scale(1.05);
+}
+
+@media (max-width: 767px) {
+  .glass-card { padding: 1.5rem; }
+}
