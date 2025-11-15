@@ -1,3 +1,4 @@
+
 # 💰 PayPlanner – Smart Expense Planning platform
 
 PayPlanner is a simple and elegant expense-planning web application that helps users manage their salary, track expenses, monitor remaining balance ,making it usable on both desktop and mobile devices.
@@ -16,7 +17,7 @@ PayPlanner is a simple and elegant expense-planning web application that helps u
 
 ## 🖼️ Screenshots
 
-(Add your project screenshots here — optional)
+<img width="1078" height="587" alt="image" src="https://github.com/user-attachments/assets/3b613a41-0768-4f1b-aed8-83c732611827" />
 
 ---
 
